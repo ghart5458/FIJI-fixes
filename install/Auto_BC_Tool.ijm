@@ -19,6 +19,9 @@ macro "Auto BC Action Tool - C037T1b09BT9b09C" {
 		maxVal = 2;
 	} else if (indexOf(imgPath, "masksegout") >= 0 || indexOf(imgPath, "mask_seg_out") >= 0) {
 		maxVal = 2;
+	} else if (indexOf(imgPath, "miathresh") >= 0 || indexOf(imgPath, "mia_thresh") >= 0 ||
+	           indexOf(imgPath, "mia") >= 0) {
+		maxVal = 2;
 	} else if (indexOf(imgPath, "maskseg") >= 0 || indexOf(imgPath, "mask_seg") >= 0 ||
 	           indexOf(imgPath, "label") >= 0) {
 		maxVal = 3;
